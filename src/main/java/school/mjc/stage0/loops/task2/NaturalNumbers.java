@@ -2,5 +2,13 @@ package school.mjc.stage0.loops.task2;
 
 public class NaturalNumbers {
     public void naturalNumbersPrinter(int lastPrinted) {
+        //Write a program that will write to console
+        // numbers from zero to the number from method arguments using while loop,
+        // each on new line:
+        int i = 0;
+        while (i <= lastPrinted) {
+            System.out.println(i);
+            i++;
+        }
     }
 }
